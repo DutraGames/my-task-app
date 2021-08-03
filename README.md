@@ -10,8 +10,14 @@ App in react Native, [My task](https://play.google.com/store/apps/details?id=com
 * [ReactJS](https://pt-br.reactjs.org/)
 * [React Native](https://reactnative.dev/)
 
-## 📖Libs:
+### 📖Libs:
 
 * [animatable](https://github.com/oblador/react-native-animatable)
 * [AsyncStorage](https://react-native-async-storage.github.io/async-storage/docs/usage/)
 * [picker](https://github.com/react-native-picker/picker)
+
+### 📚Dependencies version:
+
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/DutraGames/my-task-app/react)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/DutraGames/my-task-app/react-dom)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/DutraGames/my-task-app/expo)
