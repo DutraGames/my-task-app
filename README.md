@@ -24,3 +24,11 @@ App in react Native, [My task](https://play.google.com/store/apps/details?id=com
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/DutraGames/my-task-app/react)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/DutraGames/my-task-app/react-dom)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/DutraGames/my-task-app/expo)
+
+## 📷Images:
+
+<img src="assets/intro1.png" alt="JavaScript" width="192" height="406" style="width-max: 100%;"></img>
+<img src="assets/intro2.png" alt="JavaScript" width="192" height="406" style="width-max: 100%;"></img>
+<img src="assets/intro3.png" alt="JavaScript" width="192" height="406" style="width-max: 100%;"></img>
+
+**Application intro screens. They're even on the app's Slider.**
