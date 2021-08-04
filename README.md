@@ -37,7 +37,7 @@ App in react Native, [My task](https://play.google.com/store/apps/details?id=com
 
 <img src="assets/intro1.png" alt="intro1" width="192" height="406" style="width-max: 100%;"></img>
 <img src="assets/intro2.png" alt="intro2" width="192" height="406" style="width-max: 100%;"></img>
-<img src="assets/intro3.png" alt="intro3" width="500" height="406" style="width-max: 100%;"></img>
+<img src="assets/intro3.png" alt="intro3" width="192" height="406" style="width-max: 100%;"></img>
 
 **Application intro screens. They're even on the app's Slider.**
 
