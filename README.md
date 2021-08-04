@@ -26,6 +26,8 @@ App in react Native, [My task](https://play.google.com/store/apps/details?id=com
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/DutraGames/my-task-app/react-dom)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/DutraGames/my-task-app/expo)
 
+## 🎥GIFs:
+
 ## 📷Images:
 
 <img src="assets/intro1.png" alt="intro1" width="192" height="406" style="width-max: 100%;"></img>
