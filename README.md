@@ -32,3 +32,7 @@ App in react Native, [My task](https://play.google.com/store/apps/details?id=com
 <img src="assets/intro3.png" alt="JavaScript" width="192" height="406" style="width-max: 100%;"></img>
 
 **Application intro screens. They're even on the app's Slider.**
+
+<img src="assets/splash.png" alt="JavaScript" width="192" height="406" style="width-max: 100%;"></img>
+
+**The expo app requires a pre-configured splash screen, in the app I use this one, referring to my [youtube channel](https://www.youtube.com/lutriz)**
