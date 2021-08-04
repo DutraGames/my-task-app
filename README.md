@@ -1,5 +1,8 @@
 # My task app React Native
 
+![GitHub](https://img.shields.io/github/license/Dutragames/my-task-app?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/dutragames/my-task-app?style=plastic)
+
 ## Description 📰
 
 App in react Native, [My task](https://play.google.com/store/apps/details?id=com.lutrizstudios.mylist), to-do list
