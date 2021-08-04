@@ -28,7 +28,10 @@ App in react Native, [My task](https://play.google.com/store/apps/details?id=com
 
 ## 🎥GIFs:
 
-<img src="slider.gif" alt="slider" width="192" height="406" style="width-max: 100%;"></img>
+<img src="slider.gif" alt="slider-gif" width="192" height="406" style="width-max: 100%;"></img>
+<img src="app.gif" alt="app-gif" width="192" height="406" style="width-max: 100%;"></img>
+
+Some gifs to demonstrate the application
 
 ## 📷Images:
 
