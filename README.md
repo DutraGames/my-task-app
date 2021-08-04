@@ -42,9 +42,10 @@ App in react Native, [My task](https://play.google.com/store/apps/details?id=com
 
 **As I used some libraries, not necessarily native for expo or React Native, I will leave here part of the code in which I use them.**
 
-### picker
+### **picker**
 
-``` jsx
+``` js
+import React, {useState} from 'react';
 import {Picker} from '@react-native-picker/picker';
 
  const [pickerSelect, setPickerSelect] = useState('Simples')
@@ -55,5 +56,63 @@ import {Picker} from '@react-native-picker/picker';
     <Picker.Item label="Simples" value="Simples" />
      <Picker.Item label="Importante" value="Importante" />
      <Picker.Item label="Muito Importante" value="Muito Importante" />
-   </Picker>
+  </Picker>
 ```
+
+### **AsyncStorage**
+
+``` js
+import React, {useEffect} from 'react';
+import AsyncStorage  from  '@react-native-async-storage/async-storage';
+
+  useEffect(() => { 
+    async function LoadStorage(){
+       const StorageTarefa = await AsyncStorage.getItem('@tarefas')
+  
+       if(StorageTarefa){
+         setTarefa(JSON.parse(StorageTarefa))
+       }
+    }
+  
+    LoadStorage()
+  }, [])
+  
+  useEffect(() => {
+  async function SaveStorage(){
+    await AsyncStorage.setItem('@tarefas', JSON.stringify(tarefa))
+  }
+
+  SaveStorage()
+
+  }, [tarefa])
+
+
+  useEffect(() => { 
+    async function LoadApp(){
+       const StorageIntro = await AsyncStorage.getItem('@intro')
+  
+       if(StorageIntro){
+         setApp(JSON.parse(StorageIntro))
+       }
+    }
+  
+    LoadApp()
+  }, [])
+
+  useEffect(() => {
+    async function SaveIntro(){
+      await AsyncStorage.setItem('@intro', JSON.stringify(app))
+    }
+  
+    SaveIntro()
+  
+    }, [app])
+
+```
+
+---
+**NOTE**
+
+**tarefa** is a state in the code, I recommend that you see the complete code [by clicking here](https://github.com/DutraGames/my-task-app/blob/main/App.js)
+
+---
