@@ -31,7 +31,7 @@ App in react Native, [My task](https://play.google.com/store/apps/details?id=com
 <img src="slider.gif" alt="slider-gif" width="192" height="406" style="width-max: 100%;"></img>
 <img src="app.gif" alt="app-gif" width="192" height="406" style="width-max: 100%;"></img>
 
-Some gifs to demonstrate the application
+**Some gifs to demonstrate the application**
 
 ## 📷Images:
 
