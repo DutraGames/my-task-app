@@ -201,3 +201,42 @@ const [app, setApp] = useState(false)
 The code above is just the introduction of the app. .I recommend that you see the complete code [by clicking here](https://github.com/DutraGames/my-task-app/blob/main/App.js)
 
 ---
+
+### **animatable**
+
+---
+**NOTE**
+
+The animatable is pretty much in all the code I've developed, so I'm just going to put the to-do list code so you can see the example of it in the app.
+
+you can see this full code [by clicking here](https://github.com/DutraGames/my-task-app/blob/main/src/components/Tarefalist/index.jsx)
+---
+
+```js
+import React, {useState} from 'react'
+import {View, Text, StyleSheet, TouchableOpacity} from 'react-native'
+import {Ionicons} from '@expo/vector-icons'
+import * as Animatatable from 'react-native-animatable'
+
+
+
+export default function Tarefalist({data, deletTarefa}){
+    return(
+        <Animatatable.View style={styles.container}
+        animation="bounceIn"
+        useNativeDriver
+        >
+            <TouchableOpacity onPress={() => deletTarefa(data)}>
+                <Ionicons name="md-checkmark-circle" size={30} color="#212121"/>
+            </TouchableOpacity>
+            <View>
+                <Text style={styles.tarefa}>{data.tarefa}</Text>
+            </View>
+
+            <View>
+                <Text style={styles.important}>{data.important}</Text>
+            </View>
+        </Animatatable.View>
+    )
+}
+```
