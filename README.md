@@ -18,6 +18,7 @@ App in react Native, [My task](https://play.google.com/store/apps/details?id=com
 * [animatable](https://github.com/oblador/react-native-animatable)
 * [AsyncStorage](https://react-native-async-storage.github.io/async-storage/docs/usage/)
 * [picker](https://github.com/react-native-picker/picker)
+* [AppIntroSlider](https://github.com/Jacse/react-native-app-intro-slider)
 
 ### 📚Dependencies version:
 
@@ -27,12 +28,32 @@ App in react Native, [My task](https://play.google.com/store/apps/details?id=com
 
 ## 📷Images:
 
-<img src="assets/intro1.png" alt="JavaScript" width="192" height="406" style="width-max: 100%;"></img>
-<img src="assets/intro2.png" alt="JavaScript" width="192" height="406" style="width-max: 100%;"></img>
-<img src="assets/intro3.png" alt="JavaScript" width="192" height="406" style="width-max: 100%;"></img>
+<img src="assets/intro1.png" alt="intro1" width="192" height="406" style="width-max: 100%;"></img>
+<img src="assets/intro2.png" alt="intro2" width="192" height="406" style="width-max: 100%;"></img>
+<img src="assets/intro3.png" alt="intro3" width="192" height="406" style="width-max: 100%;"></img>
 
 **Application intro screens. They're even on the app's Slider.**
 
-<img src="assets/splash.png" alt="JavaScript" width="192" height="406" style="width-max: 100%;"></img>
+<img src="assets/splash.png" alt="splash" width="192" height="406" style="width-max: 100%;"></img>
 
 **The expo app requires a pre-configured splash screen, in the app I use this one, referring to my [youtube channel](https://www.youtube.com/lutriz)**
+
+## 💻Code:
+
+**As I used some libraries, not necessarily native for expo or React Native, I will leave here part of the code in which I use them.**
+
+### picker
+
+``` jsx
+import {Picker} from '@react-native-picker/picker';
+
+ const [pickerSelect, setPickerSelect] = useState('Simples')
+ 
+  <Picker style={{width:300}}
+  selectedValue={pickerSelect}
+  onValueChange={(itemValue, itemIndex) => setPickerSelect(itemValue)}>
+    <Picker.Item label="Simples" value="Simples" />
+     <Picker.Item label="Importante" value="Importante" />
+     <Picker.Item label="Muito Importante" value="Muito Importante" />
+   </Picker>
+```
